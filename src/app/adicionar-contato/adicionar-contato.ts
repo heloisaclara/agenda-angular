@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Contato } from './contato';
 
 @Component({
   imports: [],
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './adicionar-contato.scss',
   templateUrl: './adicionar-contato.html',
 })
-export class AdicionarContato {}
+export class AdicionarContato {
+  contatos: Contato[] = [];
+}
