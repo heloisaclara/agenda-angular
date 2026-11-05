@@ -1,8 +1,8 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AdicionarContato } from './adicionar-contato/adicionar-contato';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [AdicionarContato],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
