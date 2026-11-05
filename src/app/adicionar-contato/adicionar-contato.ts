@@ -9,4 +9,8 @@ import { Contato } from './contato';
 })
 export class AdicionarContato {
   contatos: Contato[] = [];
+  adicionar(nomeRecebido: string, telefoneRecebido: string, tipoRecebido: any){
+    const novoContato = new Contato(nomeRecebido, telefoneRecebido, tipoRecebido);
+    this.contatos.push(novoContato);
+  }
 }
